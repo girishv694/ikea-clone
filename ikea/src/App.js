@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {useState} from 'react'
+import axios from 'axios'
 
 function App() {
+
+  const [data,setData] = useState("")
+
+  const [response,setResponse] = useState([]);
+
+  const fetchData = async () =>{
+
+    const data1 = await axios.get(`http://localhost:3001/get/products/${data}`)
+    console.log(data1.data.data);
+    setResponse(data1.data.data)
+
+  }
+
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <input type="text" placeholder="what are you looking for?" onChange = {(e)=>setData(e.target.value)}/>
+     <button onClick={fetchData}>Search</button>
+    
+
+   {
+     response.map(data =>{
+       return(
+
+        <div key={data._id}>
+         {data.name}
+         {data.price}
+         <img src = {data.image} alt=""/>
+         </div>
+       )
+       
+     })
+   }
     </div>
   );
 }
