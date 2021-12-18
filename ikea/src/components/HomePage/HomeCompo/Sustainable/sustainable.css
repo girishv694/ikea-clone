@@ -1,0 +1,89 @@
+#sustainbxsu{
+    margin: 78px 9% 0px 9%;
+    width: 1272px;
+    height: 422px;
+    padding-top: 15px;
+}
+#sustitsu{
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+color: #111111;
+}
+#sustaincarasu{
+    width: 1272px;
+    margin-top: 29px;
+    overflow-x: auto;
+}
+#sustallimagessu{
+    display: flex;
+}
+#topsustainsu1{
+    background: url("https://www.ikea.com/images/hand-adjusts-the-water-flow-of-a-glypen-kitchen-tap-in-stain-a84ab755c113500b4318c6e4d0dc9924.jpg?f=xxs");
+    min-height: 344px;
+    min-width: 258px;
+    text-align: center;
+    cursor: pointer;
+    background-size: cover;
+}
+#topsustainsu2{
+    background: url("https://www.ikea.com/images/a-hand-pressing-the-switch-of-a-white-table-lamp-standing-on-d8a6f025fb2647b42caea256f8058feb.jpg?f=xxs");
+    min-height: 344px;
+    min-width: 258px;
+    text-align: center;
+    cursor: pointer;
+    background-size: cover;
+}
+#topsustainsu3{
+    background: url("https://www.ikea.com/images/a-woman-with-brown-hair-and-white-shirt-sleeping-under-a-whi-6f8f55594698055439b97d1138819aac.jpg?f=xxs");
+    min-height: 344px;
+    min-width: 258px;
+    text-align: center;
+    cursor: pointer;
+    background-size: cover;
+}
+#topsustainsu4{
+    background: url("https://www.ikea.com/images/three-white-sortera-bins-in-a-white-tiled-room-where-one-is--0c696d80fa4e20c5d518bf63765bd18c.jpg?f=xxs");
+    min-height: 344px;
+    min-width: 258px;
+    text-align: center;
+    cursor: pointer;
+    background-size: cover;
+}
+#topsustainsu5{
+    background: url("https://www.ikea.com/images/ivar-chair-painted-light-green-standing-on-old-news-papers-i-f83b1db2f71591d77418a577c9c4be15.jpg?f=xxs");
+    min-height: 344px;
+    min-width: 258px;
+    text-align: center;
+    cursor: pointer;
+    background-size: cover;
+}
+#sustaincarasu::-webkit-scrollbar {
+    background: #fff;
+    margin-top:10px;
+    width: 15px;
+    height:5px;
+    padding: 25px;
+}
+#sustaincarasu::-webkit-scrollbar:focus {
+background: #fff;
+margin-top:10px;
+width: 15px;
+height:150px;
+}
+
+#sustaincarasu::-webkit-scrollbar-thumb {
+border-radius: 2px;
+background-color: #3d3d3d;
+
+padding: 25px;
+}
+#sustaincarasu::-webkit-scrollbar-thumb:hover {
+border-radius: 2px;
+background-color: #111111;
+min-height:30px;
+padding: 25px;
+
+}

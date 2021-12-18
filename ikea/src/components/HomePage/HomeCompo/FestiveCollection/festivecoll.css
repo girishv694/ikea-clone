@@ -1,0 +1,45 @@
+#festivesu{
+    margin:0% 9%
+}
+#festivetitlesu{
+    margin-top: 80px;
+    padding: 15px 0px;
+    font-family:'Noto Sans Devanagari', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+color: #111111;
+}
+#festivegridsu{
+    display: flex;
+    flex-direction: row;
+}
+#festivegridsu > div{
+width: 408px;
+}
+.festiveFirstsu{
+    padding-top: 10px;
+    font-family:'Noto Sans Devanagari', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #111111;
+}
+.festiveSecondsu{
+font-family:'Noto Sans Devanagari', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #484848;
+}
+.festiveThirdsu{
+    margin-top:34px;
+    cursor: pointer;
+}
+.festiveleftmargsu{
+    margin-left: 24px;
+}
+

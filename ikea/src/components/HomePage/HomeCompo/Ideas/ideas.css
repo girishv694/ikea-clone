@@ -1,0 +1,52 @@
+#ideasmainsu{
+    margin: 80px 9% 0px 9%;
+    width: 1272px;
+    height: 2552px;
+}
+#ideastitlsu{
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+color: #111111;
+}
+#ideasbtnssu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+}
+.idebtnsssu{
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+background-color: #F5F5F5;
+border-radius: 24px;
+font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #111111;
+border: none;
+}
+.margleftideas8{
+    margin-left: 8px;
+}
+#ideimgsnsssu{
+    display: grid;
+    grid-template-columns: 32.075% 32.075% 32.075%;
+    grid-gap: 24px;
+    margin-top: 40px;
+}
+#ideimgsnsssu >div{
+    display:flex;
+    flex-direction: column;
+}
+.midimagesu24{
+    margin-top: 24px;
+}
+#ideasloader12su{
+    text-align: center;
+    margin-top:40px;
+}

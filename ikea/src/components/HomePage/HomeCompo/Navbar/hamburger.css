@@ -1,0 +1,69 @@
+#hamburgsu{
+    background-color: #FFFFFF;
+    width: 428px;
+    max-height: 800px;
+    overflow-y: auto;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:99;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+#hamburgersuf1{
+    display: flex;
+}
+#hamburgnthikesu{
+    margin-left: 100px;
+}
+#cancelhamsuall{
+    position:fixed;
+}
+#hamburgprodsu{
+margin-top: 36px;
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 58px;
+color: #111111;
+margin-left: 95px;
+}
+#hamburgthierdsu{
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+color: #111111;
+margin-left: 95px;
+}
+#hamburgfrthsu{
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+color: #484848;
+margin-left: 95px;
+margin-top: 48px;
+}
+.hamburgtopsu{
+    margin-top: 24px;
+}
+.hamburgtopsu:hover{
+    text-decoration: underline;
+}
+.hamburgtopsudiff{
+    margin-top: 16px;
+   
+}
+.hamburgtopsudiff:hover{
+    text-decoration: underline;
+}
+#hamburglogocontsu{
+    margin-left: 95px;
+    margin-top: 80px;
+    margin-bottom: 158px;
+}
