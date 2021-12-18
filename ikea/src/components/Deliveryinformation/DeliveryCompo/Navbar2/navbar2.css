@@ -1,0 +1,37 @@
+#navbar2su{
+    width: 1272px;
+    margin:auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    height:40px;
+    padding-left:84px;
+    padding-right: 84px;
+    display: flex;
+    flex-grow: row;
+    flex-direction: row;
+}
+#loggerbtnsu{
+padding: 12px 32px;
+margin-left: 1064px;
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #0078C1;
+border: 1px solid #0078C1;
+background-color: #FFFFFF;
+}
+#navsu2amnt{
+    font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 36px;
+color: #0058A3;
+}
+#nav2altsu{
+    display: flex;
+    flex-direction: column;
+    margin-left:970px;
+}
