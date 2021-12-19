@@ -1,0 +1,30 @@
+#explhmsu{
+    width: 1272px;
+    height: 470px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns:49.05% 49.05% ;
+    grid-gap: 1.88%;
+    margin: 80px 9% 0px 9%;
+}
+.mar20hmsu{
+    margin-top:20px;
+}
+.explsubcontsu{
+    font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #484848;
+margin-top: 10px;
+}
+.explsecsubsu{
+margin-top:36px;
+font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #484848;
+}

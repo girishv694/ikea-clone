@@ -1,0 +1,21 @@
+#ratedprodsu{
+    margin: 92px 9% 95px 9%;
+    width: 1272px;
+    height: 474px;
+    display: flex;
+    flex-direction: row;
+}
+.ratedprodtop24su{
+margin-top: 24px;
+font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 42px;
+text-decoration-line: underline;
+color: #111111;
+cursor: pointer;
+}
+.pointercursorsu{
+    cursor: pointer;
+}

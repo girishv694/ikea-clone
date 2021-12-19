@@ -1,0 +1,158 @@
+.sidebar{
+position: relative;
+width: 400px;
+height: 1056px;
+background: #FFFFFF;
+margin-left: 930px;
+margin-top: -5200px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.sidebar::-webkit-scrollbar {
+    background: #fff;
+    margin-top:10px;
+    width: 0px;
+    height:5px;
+    padding: 5px;
+}
+.sidebar::-webkit-scrollbar:focus {
+background: #fff;
+margin-top:10px;
+width: 0px;
+height:150px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+border-radius: 2px;
+background-color: #868a8a;
+outline: 2px solid rgb(100, 102, 104);
+padding: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+border-radius: 2px;
+background-color: #121414;
+outline: 2px solid rgb(100, 102, 104);
+padding: 5px;
+
+}
+
+.box{
+position: sticky;
+width: 400px;
+top:0px;
+height: 216px;
+background: #0058A3;
+}
+
+.cancel{
+   border: none;
+   background-color: #0058A3;
+   margin-left: 340px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.heading{
+position: static;
+width: 381px;
+height: 50px;
+left: 0px;
+top: 0px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.bag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 10px;
+    top: 152px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+background: #0058A3;
+}
+
+.bag:hover{
+    background-color: white;
+    color: black;
+}
+
+.related{
+    /* position: relative; */
+width: 344px;
+height: 2488px;
+left: 24px;
+top: 240px;
+background: #FFFFFF;
+}
+
+.ledata{
+    display: flex;
+    flex-direction: row;
+gap: 10px;
+margin-left: -20px;
+}
+
+.im{
+    margin-bottom: 90px;
+}
+
+.app{
+    margin-left: 20px;
+    margin-top: -10px;
+    flex: none;
+}
+
+.name{
+    font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+}
+
+.name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rating{
+    position: static;
+    width: 15px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #484848;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -18px 70px;
+}

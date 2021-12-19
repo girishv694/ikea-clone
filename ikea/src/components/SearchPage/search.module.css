@@ -1,0 +1,103 @@
+
+.datadiv{
+    margin-top: 140px;
+    margin-right: 80px;
+}
+
+.rs{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pri{
+    font-size: 18px;
+}
+
+.names:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.desks{
+    position: absolute;
+width: 1200px;
+height: 522px;
+left: 84px;
+overflow-y: hidden;
+overflow-x: auto;
+top: 2500px;
+}
+
+
+.desks::-webkit-scrollbar {
+    background: #fff;
+    margin-top:10px;
+    width: 15px;
+    height:4px;
+    padding: 25px;
+}
+.desks::-webkit-scrollbar:focus {
+background: #fff;
+margin-top:10px;
+width: 15px;
+height:150px;
+}
+
+.desks::-webkit-scrollbar-thumb {
+border-radius: 2px;
+background-color: #868a8a;
+outline: 2px solid rgb(100, 102, 104);
+padding: 25px;
+}
+.desks::-webkit-scrollbar-thumb:hover {
+border-radius: 2px;
+background-color: #121414;
+outline: 2px solid rgb(100, 102, 104);
+padding: 25px;
+
+}
+
+.heart{
+    margin-left: 220px;
+}
+
+.alldata{
+    display: flex;
+    margin-top: 100px;
+    width: 1200px;
+    overflow-y: hidden;
+overflow-x: auto;
+}
+
+.alldata::-webkit-scrollbar {
+    background: #fff;
+    margin-top:10px;
+    width: 15px;
+    height:4px;
+    padding: 25px;
+}
+.alldata::-webkit-scrollbar:focus {
+background: #fff;
+margin-top:10px;
+width: 15px;
+height:150px;
+}
+
+.alldata::-webkit-scrollbar-thumb {
+border-radius: 2px;
+background-color: #868a8a;
+outline: 2px solid rgb(100, 102, 104);
+padding: 25px;
+}
+.alldata::-webkit-scrollbar-thumb:hover {
+border-radius: 2px;
+background-color: #121414;
+outline: 2px solid rgb(100, 102, 104);
+padding: 25px;
+
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+}

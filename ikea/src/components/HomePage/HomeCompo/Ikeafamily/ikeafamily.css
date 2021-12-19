@@ -1,0 +1,142 @@
+#ikeafamboxsu{
+    margin: 0% 9%;
+    width: 1272px;
+    display: flex;
+    flex-direction: row;
+}
+.famsimagcontsu{
+    max-width: 300px;
+}
+#ikeafamsu{
+font-family: 'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 34px;
+color: #111111;
+margin-top:81px;
+margin-left: 9%;
+margin-right:9%;
+}
+#famousimg1{
+    max-width:300px;
+    overflow: hidden;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=16vrnnD4AQtrdnP-TksTVwTfDL-T4Gu_i");
+}
+#famousimg1:hover{
+    width:300px;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=1JxGxiB5-qerAA913POdYNGptEzqvKkEq");
+}
+#famousimg2{
+    max-width:300px;
+    overflow: hidden;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=1b05Md05g51jZt7JqkSQ9isAzuvxhJAT8");
+}
+#famousimg2:hover{
+    width:300px;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=17F3z0m1BF1PBgVau6PtQo75GE2091f8q");
+}
+#famousimg3{
+    max-width:300px;
+    overflow: hidden;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=1aYPiNj_twD-0zwGlWpq-VIEsl1ytg6KT");
+}
+#famousimg3:hover{
+    width:300px;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=1ExZSZqVetaMSq_oIX6QxGWCKoAsa9d__");
+}
+#famousimg4{
+    max-width:300px;
+    overflow: hidden;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=1UhZJQPXQ_Ensv4MdmNDO1iVop8w22oWD");
+}
+#famousimg4:hover{
+    width:300px;
+    height:236px;
+    background: url("https://drive.google.com/uc?export=view&id=1-e3qUefLJXZn1j1HM7MImM4FUylCo0pS");
+}
+#famousimgcontsu{
+    width: 268px;
+    height: 220px;
+    padding: 4px 16px;
+}
+/* https://drive.google.com/uc?export=view&id=19UXs4tUU5mIwUiJYxWc07zL3fh1yWI_E */
+
+.famousimcontitlesu{
+    color: #0058A3;
+    font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+letter-spacing:1px;
+}
+.famousimsubtitsu{
+font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #111111;
+margin-top: 4px;
+}
+.famousinsubsubsu{
+    font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #484848;
+margin-top: 4px;
+}
+.famousimsubsubsu{
+    font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #484848;
+margin-top: 4px;
+}
+.famousimpriceesu{
+    font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+color: #111111;
+}
+.famouswid4pxsu{
+    margin-top:4px;
+}
+.famousimamntesu{
+font-family:'Noto Sans Devanagari';
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 20px;
+color: #111111;
+}
+.famstarssu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fam24pixsu{
+    margin-left: 24px;
+}
+.defmargsu{
+    margin: 0% 9%;
+}
+.margfamsu40{
+    margin-top: 40px;
+}

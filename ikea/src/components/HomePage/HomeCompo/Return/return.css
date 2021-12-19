@@ -1,0 +1,34 @@
+#returnsu{
+    margin: 82px 9% 0px 9%;
+    border: 1px solid black;
+    width: 1272px;
+    height: 172px;
+    background-color:#F5F5F5;
+    padding-top: 52px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#returnsu{
+    text-align: center;
+}
+.returnpolisu{
+margin-top: 8px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #111111;
+}
+.retsubduosu{
+margin-top:4px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #484848;
+}
+.textretsu{
+    text-decoration: underline;
+}
