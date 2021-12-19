@@ -9,7 +9,7 @@ import shoppingcart from './shoppingcart.svg';
 import {Hamburgermenu} from './Hamburgermenu';
 import {useState} from 'react';
 import { useHistory  } from 'react-router-dom';
-
+import {NavLink} from 'react-router-dom';
 export const Navbar =() => {
     const history = useHistory();
     const [flag,setFlag] = useState(false);
@@ -26,7 +26,7 @@ export const Navbar =() => {
                 <div id="vectornavsu"> <img  onClick={() =>{
                     setFlag(true);
                 }}src={vector} alt="vector" /> </div>
-                <div id="ikealogosu"> <img src={ikealogo} alt="logo" /> </div>
+                <div id="ikealogosu"> <NavLink to="/"><img src={ikealogo} alt="logo" /></NavLink> </div>
                 <div id="catnavsu">
                     <a className="navancsu" href=".">Products</a>
                     <a className="navancsu" href=".">Rooms</a>

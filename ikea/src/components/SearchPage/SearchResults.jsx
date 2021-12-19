@@ -803,163 +803,164 @@ const SearchResults = () => {
     
     return (
         <>
-        <div style={{maxWidth:"maxcontent"}}>
         <Navbar />
-        </div>
-            <Div>
-                <Head>Showing results for <span><h3>"table lamps for study"</h3></span></Head>
-            </Div>
-            <Anchor>
-                Products(10)<Span1> Content(25)</Span1>
-            </Anchor>
-            <Filters>
-                <Button ><Text>Sort<Span><img src={Vector} /></Span></Text></Button>
-                <Button1 ><Text1>Price<Span><img src={Vector} /></Span></Text1></Button1>
-                <Button2 ><Text2>Color<Span><img src={Vector} /></Span></Text2></Button2>
-                <Button3 ><Text3>Category<Span><img src={Vector} /></Span></Text3></Button3>
-                <Button4 ><Text4>Material<Span><img src={Vector} /></Span></Text4></Button4>
-                <Button5 ><Text5>Feature <Span><img src={Vector} /></Span></Text5></Button5>
-                <Button6 ><Text6>Customer Rating <Span><img src={Vector} /></Span></Text6></Button6>
-                <Button7 ><Text7>Series <Span><img src={Vector} /></Span></Text7></Button7>
-                <Button8><Text8>All Filter<Span><img src={Filter} /></Span></Text8></Button8>
-            </Filters>
+        <div className={styles.searchMainsu1}>
 
-            <Div4>
-                <Line></Line>
-                <Datadiv>
-                    {data.slice(2).map((e) => (
-                        <Data key={e._id}>
-                            <NavLink to = {`/product/${e._id}`} className={styles.links}>
-                           <img src={e.image}  alt="image" width="250px" height="250px" />
-                            
-                            <h4 className={styles.names}>{e.name}</h4>
-                            <p className={styles.worklamp}>Led work lamp</p>
-                            <p className={styles.rs}>Rs. <span className={styles.pri}>{e.price}.00</span> </p>
-                        </NavLink>
-                        </Data>
-                    ))}
-                </Datadiv>
-                <Datadiv>
-                    {data.splice(0, 2).map((e) => (
-                        <div key={e._id} className={styles.datadiv}>
-                            <NavLink to = {`/product/${e._id}`} className={styles.links}>
-                            <img  src={e.image}  alt="image" width="250px" height="250px" />
-                            
-                            <h4 className={styles.names}>{e.name}</h4>
-                            <p className={styles.worklamp}>Led work lamp</p>
-                            <p className={styles.rs}>Rs. <span className={styles.pri}>{e.price}.00</span> </p>
+        
+                <Div>
+                    <Head>Showing results for <span><h3>"table lamps for study"</h3></span></Head>
+                </Div>
+                <Anchor>
+                    Products(10)<Span1> Content(25)</Span1>
+                </Anchor>
+                <Filters>
+                    <Button ><Text>Sort<Span><img src={Vector} /></Span></Text></Button>
+                    <Button1 ><Text1>Price<Span><img src={Vector} /></Span></Text1></Button1>
+                    <Button2 ><Text2>Color<Span><img src={Vector} /></Span></Text2></Button2>
+                    <Button3 ><Text3>Category<Span><img src={Vector} /></Span></Text3></Button3>
+                    <Button4 ><Text4>Material<Span><img src={Vector} /></Span></Text4></Button4>
+                    <Button5 ><Text5>Feature <Span><img src={Vector} /></Span></Text5></Button5>
+                    <Button6 ><Text6>Customer Rating <Span><img src={Vector} /></Span></Text6></Button6>
+                    <Button7 ><Text7>Series <Span><img src={Vector} /></Span></Text7></Button7>
+                    <Button8><Text8>All Filter<Span><img src={Filter} /></Span></Text8></Button8>
+                </Filters>
+
+                <Div4>
+                    <Line></Line>
+                    <Datadiv>
+                        {data.slice(2).map((e) => (
+                            <Data key={e._id}>
+                                <NavLink to = {`/product/${e._id}`} className={styles.links}>
+                            <img src={e.image}  alt="image" width="250px" height="250px" />
+                                
+                                <h4 className={styles.names}>{e.name}</h4>
+                                <p className={styles.worklamp}>Led work lamp</p>
+                                <p className={styles.rs}>Rs. <span className={styles.pri}>{e.price}.00</span> </p>
                             </NavLink>
-                        </div>
-                    ))}
-                </Datadiv>
+                            </Data>
+                        ))}
+                    </Datadiv>
+                    <Datadiv>
+                        {data.splice(0, 2).map((e) => (
+                            <div key={e._id} className={styles.datadiv}>
+                                <NavLink to = {`/product/${e._id}`} className={styles.links}>
+                                <img  src={e.image}  alt="image" width="250px" height="250px" />
+                                
+                                <h4 className={styles.names}>{e.name}</h4>
+                                <p className={styles.worklamp}>Led work lamp</p>
+                                <p className={styles.rs}>Rs. <span className={styles.pri}>{e.price}.00</span> </p>
+                                </NavLink>
+                            </div>
+                        ))}
+                    </Datadiv>
 
-            </Div4>
-            <Line2></Line2>
-            <Div2>
-                <Div3>
-                    What do you think about this search for "table lamps for study"
-                </Div3>
-                <Icons>
-                    <img src={Emojis} />
-                </Icons>
+                </Div4>
+                <Line2></Line2>
+                <Div2>
+                    <Div3>
+                        What do you think about this search for "table lamps for study"
+                    </Div3>
+                    <Icons>
+                        <img src={Emojis} />
+                    </Icons>
 
-                <Line3></Line3>
-                <Para>Showing 5 of 5 results </Para>
-            </Div2>
-            <Div5>
-                <Text9>Similar products</Text9>
-                <ProductData />
-            </Div5>
-            <div className={styles.desks}>
-                <Imgdiv>
-                    <img src={Desk} alt="desk" />
-                    <Textdiv>
-                        <Divpara>Home office</Divpara>
-                        <Similar>
-                            Must have to create the perfect study space for your kids
-                        </Similar>
-                        <Ecp>
-                            <img src={Rightsmall} alt="arrow" />
-                        </Ecp>
-                    </Textdiv>
-                </Imgdiv>
-                <Imgdiv1>
-                    <img src={Whitedesk} alt="desk" />
-                    <Textdiv>
-                        <Divpara>Home office</Divpara>
-                        <Similar>
-                            Work, study and hobbies in one tidy spot
-                        </Similar>
-                        <Ecp>
-                            <img src={Rightsmall} alt="arrow" />
-                        </Ecp>
-                    </Textdiv>
-                </Imgdiv1>
-                <Imgdiv2>
-                    <img src={Whitedesk} alt="desk" />
-                    <Textdiv>
-                        <Divpara>Home office</Divpara>
-                        <Similar>
-                            Study studies and room for rest
-                        </Similar>
-                        <Ecp>
-                            <img src={Rightsmall} alt="arrow" />
-                        </Ecp>
-                    </Textdiv>
-                </Imgdiv2>
-                <Imgdiv3>
-                    <img src={Whitedesk} alt="desk" />
-                    <Textdiv>
-                        <Divpara>Home office</Divpara>
-                        <Similar>
-                            A calm work and study area in your living room
-                        </Similar>
-                        <Ecp>
-                            <img src={Rightsmall} alt="arrow" />
-                        </Ecp>
-                    </Textdiv>
-                </Imgdiv3>
-                <Imgdiv4>
-                    <img src={Whitedesk} alt="desk" />
-                    <Textdiv>
-                        <Divpara>Home office</Divpara>
-                        <Similar>
-                            How to get a study room with space to go
-                        </Similar>
-                        <Ecp>
-                            <img src={Rightsmall} alt="arrow" />
-                        </Ecp>
-                    </Textdiv>
-                </Imgdiv4>
-                <Imgdiv5>
-                    <img src={Whitedesk} alt="desk" />
-                    <Textdiv>
-                        <Divpara>Home office</Divpara>
-                        <Similar>
-                            Must have to create the perfect study space for your kids
-                        </Similar>
-                        <Ecp>
-                            <img src={Rightsmall} alt="arrow" />
-                        </Ecp>
-                    </Textdiv>
-                </Imgdiv5>
+                    <Line3></Line3>
+                    <Para>Showing 5 of 5 results </Para>
+                </Div2>
+                <Div5>
+                    <Text9>Similar products</Text9>
+                    <ProductData />
+                </Div5>
+                <div className={styles.desks}>
+                    <Imgdiv>
+                        <img src={Desk} alt="desk" />
+                        <Textdiv>
+                            <Divpara>Home office</Divpara>
+                            <Similar>
+                                Must have to create the perfect study space for your kids
+                            </Similar>
+                            <Ecp>
+                                <img src={Rightsmall} alt="arrow" />
+                            </Ecp>
+                        </Textdiv>
+                    </Imgdiv>
+                    <Imgdiv1>
+                        <img src={Whitedesk} alt="desk" />
+                        <Textdiv>
+                            <Divpara>Home office</Divpara>
+                            <Similar>
+                                Work, study and hobbies in one tidy spot
+                            </Similar>
+                            <Ecp>
+                                <img src={Rightsmall} alt="arrow" />
+                            </Ecp>
+                        </Textdiv>
+                    </Imgdiv1>
+                    <Imgdiv2>
+                        <img src={Whitedesk} alt="desk" />
+                        <Textdiv>
+                            <Divpara>Home office</Divpara>
+                            <Similar>
+                                Study studies and room for rest
+                            </Similar>
+                            <Ecp>
+                                <img src={Rightsmall} alt="arrow" />
+                            </Ecp>
+                        </Textdiv>
+                    </Imgdiv2>
+                    <Imgdiv3>
+                        <img src={Whitedesk} alt="desk" />
+                        <Textdiv>
+                            <Divpara>Home office</Divpara>
+                            <Similar>
+                                A calm work and study area in your living room
+                            </Similar>
+                            <Ecp>
+                                <img src={Rightsmall} alt="arrow" />
+                            </Ecp>
+                        </Textdiv>
+                    </Imgdiv3>
+                    <Imgdiv4>
+                        <img src={Whitedesk} alt="desk" />
+                        <Textdiv>
+                            <Divpara>Home office</Divpara>
+                            <Similar>
+                                How to get a study room with space to go
+                            </Similar>
+                            <Ecp>
+                                <img src={Rightsmall} alt="arrow" />
+                            </Ecp>
+                        </Textdiv>
+                    </Imgdiv4>
+                    <Imgdiv5>
+                        <img src={Whitedesk} alt="desk" />
+                        <Textdiv>
+                            <Divpara>Home office</Divpara>
+                            <Similar>
+                                Must have to create the perfect study space for your kids
+                            </Similar>
+                            <Ecp>
+                                <img src={Rightsmall} alt="arrow" />
+                            </Ecp>
+                        </Textdiv>
+                    </Imgdiv5>
+                </div>
+                <Div7>
+                    <Text10>Others also searched for</Text10>
+                    <Others>
+                        <One>Table lamp<span>(69)</span></One>
+                        <One>Study lamp(31)</One>
+                        <One>Floor lamp(43)</One>
+                        <One>Table clock(18)</One>
+                        <Five>lamp(132)</Five>
+                        <Six>Study Table(519)</Six>
+                        <Seven>Wall lamp(55)</Seven>
+                        <Eight>Clock(30)</Eight>
+                        <Nine>Table lamp Shade(22)</Nine>
+                    </Others>
+                    <Footer />
+                </Div7>
             </div>
-            <Div7>
-                <Text10>Others also searched for</Text10>
-                <Others>
-                    <One>Table lamp<span>(69)</span></One>
-                    <One>Study lamp(31)</One>
-                    <One>Floor lamp(43)</One>
-                    <One>Table clock(18)</One>
-                    <Five>lamp(132)</Five>
-                    <Six>Study Table(519)</Six>
-                    <Seven>Wall lamp(55)</Seven>
-                    <Eight>Clock(30)</Eight>
-                    <Nine>Table lamp Shade(22)</Nine>
-                </Others>
-                <Footer />
-            </Div7>
-            
         </>
 
     )
