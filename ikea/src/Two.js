@@ -143,10 +143,10 @@ Access your IKEA account using your email address to add and verify your mobile 
 
         <p className="g_para">Do not have an IKEA account? Create one now :</p>
             
-          {
+          {/* {
             msg ?<div> {notify()} <ToastContainer /></div>: null
           }
-         <ToastContainer/>
+         <ToastContainer/> */}
            
           
           
