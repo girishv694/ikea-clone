@@ -9,13 +9,14 @@ import { ShoppingCart } from './components/Cart/ShoppingCart'
 function App() {
   return (
     <div>
-      <Switch>
+      {/* <Switch>
         <Route exact path="/"> <Home /> </Route>
          <Route exact path="/search/:id"><SearchResults /></Route>
          <Route exact path="/product/:id"><ProductDetail /></Route>
          <Route exact path="/cart"><ShoppingCart /></Route> 
          
-      </Switch>
+      </Switch> */}
+      <Two/>
     </div>
   )
 }

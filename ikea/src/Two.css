@@ -206,3 +206,29 @@ align-items: center;
   .g_flex{
       display: flex;
   }
+  .g_new{
+    border: none;
+    margin-top: 240px;
+    margin-left: 108px;
+    width: 516px;
+    height: 56px;
+    margin-right: 192px;
+   
+  }
+
+ .g_input3{
+    border: none;
+    margin-top: 133px;
+    margin-left: 108px;
+    width: 516px;
+    height: 56px;
+    margin-right: 192px;
+    border-bottom: 1px solid #CFCFCF;
+    padding-left: 15px;
+    letter-spacing: 42px;
+ }
+
+ .input3{
+     margin-top: 40px;
+     margin-left: 108px;
+ }
