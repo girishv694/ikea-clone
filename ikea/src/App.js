@@ -14,10 +14,11 @@ import UpiBox from './components/Page1/UPiBox'
 import UpiType from './components/Page1/UpiType'
 import PaymentComponent from './components/Page1/PaymentmainComponent'
 import { Deliverypage } from './components/Deliveryinformation/DeliMain/Deliverypage'
+import Revieworder from './components/page3/reviewOrderpage/Revieworder'
 function App() {
   return (
-    <div>
-      <Switch>
+    <>
+       <Switch>
         <Route exact path="/"> <Home /> </Route>
          <Route exact path="/search/:id"><SearchResults /></Route>
          <Route exact path="/product/:id"><ProductDetail /></Route>
@@ -25,14 +26,11 @@ function App() {
          <Route exact path="/cart"><ShoppingCart /></Route>
          <Route exact path="/order"><ShopingCart /></Route>  
           <Route exact path="/info"><Deliverypage /></Route>
-         
+         <Route exact path="/review"><Revieworder /></Route>
+         <Route exact path="/payment"><PaymentComponent /></Route>
+        <Route exact path="/login"><Two /></Route>
       </Switch>
-      {/* <Two /> */}
-      {/* <ShopingCart /> */}
-      {/* <PaymentComponent /> */}
-      {/* <UpiType /> */}
-      {/* < Deliverypage /> */}
-    </div>
+      </>
   )
 }
 

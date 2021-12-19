@@ -2,10 +2,12 @@ import PaymentBox from "./PaymentBox";
 import '../componentsCss/Payment.css'
 import UpiBox from "./UPiBox";
 import adress from './images/Bhimlogo.png'
+import { useHistory } from "react-router-dom";
 
 
 
 function Payment () {
+    const history = useHistory()
     return (
         <div className="Payment">
 
@@ -18,12 +20,15 @@ function Payment () {
              <div>
                    <UpiBox></UpiBox>
              </div>
-             <div className='Buttondiv'>
-                <button>Verify</button>
-                <button>PayNow</button>
+             <div className='Buttondiv' style={{marginLeft:"240px", width:"600px",}}>
+                <button style={{border: "1px solid #DBE7F2"}}>Verify</button>
+                <button style={{border: "1px solid #DBE7F2", marginLeft:"10px"}} onClick={()=>{
+                    alert("Payment Successfull")
+                    history.push("/")
+                }}>PayNow</button>
              </div>
              <div>
-                 <a>cancel</a>
+                 <a style={{color:"blue", textDecoration:"underline",marginLeft:"260px"}}>cancel</a>
              </div>
 
              {/* <div className="Paymentb">

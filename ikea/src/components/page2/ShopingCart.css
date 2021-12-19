@@ -115,7 +115,7 @@
   width: 30%;
   margin-top: 1%;
   /* border: 0.004px solid #340af0; */
-  margin-left: 8.6%;
+  margin-left: 10%;
 }
 #Yourshopinpara {
   margin-top: 0%;
@@ -134,7 +134,7 @@
 .Dashline {
   width: 88%;
   border: 0.2px solid #dfdfdf;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 8%;
 }
 
@@ -164,7 +164,6 @@
   height: 75%;
 }
 #ImageA {
-  /* border: 0.005px solid #3417da; */
   width: 45%;
 }
 .Img {
@@ -172,11 +171,19 @@
   width: 100%;
 }
 #ImageB {
-  /* border: 0.005px solid hsl(56, 100%, 58%); */
-  width: 50%;
+ 
+  width: 60%;
   margin-left: 1%;
+  margin-top: 1px;
 }
-
+.A {
+  /* border: 00.001px solid black; */
+  margin-top: 5px;
+}
+.B {
+  /* border: 00.001px solid black; */
+  margin-top: 5px;
+}
 #Harte {
   margin-top: -1%;
   font-family: Noto Sans;
@@ -187,7 +194,8 @@
   flex: none;
   order: 0;
   flex-grow: 1;
-  margin-left: -18%;
+  margin-left: 0%;
+  padding: 4px;
 }
 #Led {
   font-family: Noto Sans;
@@ -202,7 +210,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  margin-top: -5%;
+  margin-top: 0%;
 }
 #White {
   font-family: Noto Sans;
@@ -614,4 +622,90 @@
   width: 100%;
   justify-content: center;
   color: whitesmoke;
+}
+
+#delinfmsu {
+  margin: 40px 9% 0px 9%;
+  width: 1272px;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 40.56% 40.56%;
+  grid-gap: 18.86%;
+}
+#retretretsu {
+  padding: 12px 32px;
+  font-family: "Noto Sans Devanagari";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0078c1;
+  border: 1px solid #0078c1;
+}
+#proceederdelsu {
+  padding: 12px 32px;
+  font-family: "Noto Sans Devanagari";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: white;
+  background-color: #0058a3;
+  margin-left: 32px;
+}
+#deltitsu {
+  font-family: "Noto Sans Devanagari";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 58px;
+  color: #333333;
+}
+#billdetsudel {
+  font-family: "Noto Sans Devanagari";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 58px;
+  color: #333333;
+  margin: 32px 0px;
+}
+#enternamebillpansu {
+  margin: 32px 0px;
+}
+.allinpudelsu {
+  width: 324px;
+  padding: 10px;
+}
+.allinpumarg24delsu {
+  margin-top: 24px;
+}
+#del2ndsu {
+  border: 1px solid #cfcfcf;
+  height: 720px;
+}
+#fexerdelsu {
+  padding: 24px;
+}
+#orderdetdelsu {
+  display: grid;
+  grid-template-columns: 25% 40% 25%;
+  grid-gap: 5%;
+}
+#lastdelprisu {
+  margin-top: 300px;
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: row;
+}
+#totallerdelsusuus {
+  margin-left: 150px;
+}
+#lastdelprisu1 {
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: row;
+}
+#totalleftydelisu {
+  margin-left: 215px;
 }

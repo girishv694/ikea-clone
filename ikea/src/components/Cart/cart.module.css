@@ -476,7 +476,7 @@ cursor: pointer;
 }
 .collect{
 position: absolute;
-width: 450px;
+width: 460px;
 height: 98px;
 left: calc(50% - 376px/2 + 192px);
 top: calc(50% - 98px/2 + 21px);

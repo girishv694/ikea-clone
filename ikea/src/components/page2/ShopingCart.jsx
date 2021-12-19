@@ -102,11 +102,14 @@ function ShopingCart(){
                                  <img className='Img' src= {e.image}/>
                              </div>
                              <div id='ImageB'>
-                                  <div>
+                                  <div className='A'>
                                       <p id='Harte'>{e.name}</p>
                                   </div>
                                   <div>
-                                      <p  id ='Led'>LED Work lamp</p>
+                                      <div className='B'>
+                                          <p  id ='Led'>LED Work lamp</p>
+                                      </div>
+                                      
                                   </div>
                                   <div>
                                       <p id='Price'> Rs. {e.price}.00</p>

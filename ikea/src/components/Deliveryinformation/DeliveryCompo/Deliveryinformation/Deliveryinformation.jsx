@@ -98,7 +98,7 @@ export const Deliveryinformation =() => {
                     <div className="allinpumarg24delsu">The fields marked with a * are mandatory fields.</div>
                     <div className="allinpumarg24delsu" style={{display:"flex"}}>
                        <button id="retretretsu">Return</button>
-                        <button id="proceederdelsu">Proceed to pay</button>
+                      <NavLink to="/review">  <button id="proceederdelsu">Proceed to pay</button></NavLink>
                     </div>
                     <div style={{height:"200px"}}></div>
                 </div>

@@ -16,7 +16,7 @@ const CartDetails = () => {
         </div>
         <div className={styles.buttons}>
       <NavLink to="/products"><button className={styles.bop}>Browser our product</button></NavLink>
-        <button className={styles.login}>Login</button>
+      <NavLink to="/login"> <button className={styles.login}>Login</button></NavLink> 
         </div>
         {/* <img className={styles.cardimg} src={Card} alt="blue" /> */}
         </>
