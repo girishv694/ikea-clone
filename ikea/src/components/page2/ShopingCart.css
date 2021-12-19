@@ -1,0 +1,617 @@
+.Parantdiv {
+  height: 850px;
+  width: 100%;
+  /* border: solid #21f3e9; */
+}
+
+.Navbardiv {
+  display: flex;
+  /* border: solid green; */
+  height: 10%;
+}
+.Weblogo {
+  /* border: solid green; */
+  margin-left: 10%;
+  width: 10%;
+  justify-content: center;
+}
+.Logo {
+  margin-left: 5px;
+  /* border: solid palevioletred; */
+}
+.Loginbtn {
+  /* border: solid #4807b1; */
+  margin-left: 70%;
+  width: 7%;
+}
+.Login {
+  margin-left: 10px;
+  margin-top: 12%;
+
+  /* Log in */
+
+  position: static;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Extended Colors/Ocean Blue */
+  color: #0078c1;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 12px;
+}
+
+/* shopingstate start */
+
+.Shopingstate {
+  width: 100%;
+  height: 40px;
+  /* border: solid #f30909; */
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ShopingstateA {
+  /* border: 0.5px solid black; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.ShopingstateB {
+  /* border: 0.2px solid black; */
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  margin-left: -8%;
+}
+.ShopingstateC {
+  /* border: 0.2px solid black; */
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  margin-left: -9%;
+}
+
+#Arrow {
+  width: 10%;
+  height: 100%;
+  margin-left: 20%;
+  /* border: 0.2px solid firebrick; */
+}
+#Paradiv {
+  height: 50%;
+  /* border: 0.001px solid chartreuse; */
+}
+#Para {
+  margin-top: 3%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/* shopingstate start  End*/
+
+/* your shoping cart para start */
+
+.Yourshoping {
+  height: 4%;
+  width: 30%;
+  margin-top: 1%;
+  /* border: 0.004px solid #340af0; */
+  margin-left: 8.6%;
+}
+#Yourshopinpara {
+  margin-top: 0%;
+  margin-left: -46%;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #333333;
+}
+/* your shoping cart para End */
+
+/* Dash Line Start */
+
+.Dashline {
+  width: 88%;
+  border: 0.2px solid #dfdfdf;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+/* Dash Line End */
+
+/* Shoping item image&price box Start */
+
+.Productimageprice {
+  width: 88%;
+  margin-left: 8%;
+  height: 20.5%;
+  /* border: 0.005px solid firebrick; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Productimage {
+  /* border: 0.005px solid #3417da; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.ProductimageA {
+  /* border: 0.005px solid #22b259; */
+  display: flex;
+  flex-direction: row;
+  height: 75%;
+}
+#ImageA {
+  /* border: 0.005px solid #3417da; */
+  width: 45%;
+}
+.Img {
+  height: 100%;
+  width: 100%;
+}
+#ImageB {
+  /* border: 0.005px solid hsl(56, 100%, 58%); */
+  width: 50%;
+  margin-left: 1%;
+}
+
+#Harte {
+  margin-top: -1%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-left: -18%;
+}
+#Led {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  margin-top: -7%;
+  margin-left: -2%;
+}
+#Price {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -5%;
+}
+#White {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 15%;
+}
+#Article {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: -5px;
+  margin-left: 9px;
+}
+
+.Togglebutton {
+  width: 60%;
+  /* border: 0.005px solid hsl(234, 100%, 50%); */
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 45%;
+}
+
+/* Shoping item image&price box End */
+
+/* Product price calculation  */
+.Productprice {
+  /* border: 0.004px solid rgb(0, 0, 0); */
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ProductpriceA {
+  width: 46%;
+  /* border: 0.004px solid rgb(0, 0, 0); */
+  display: flex;
+  flex-direction: column;
+}
+
+.Total {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 15px;
+  margin-top: 5px;
+}
+#Totalcontent {
+  margin-top: -0px;
+  margin-left: -70px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.Productvolume {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 15px;
+  margin-top: 20px;
+}
+#Productvolumecontent {
+  margin-top: 2px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+.Delivery {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 15px;
+}
+#Deliverypara {
+  margin-top: 2px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+.Total {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 25px;
+  margin-top: 15px;
+}
+#Totalcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 5.6px;
+}
+
+.ProductpriceB {
+  width: 46%;
+  /* border: 0.004px solid rgb(0, 0, 0); */
+  display: flex;
+  flex-direction: column;
+}
+.Dashline {
+  border: 1px solid gray;
+}
+
+.Totalprice {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 15px;
+  margin-top: 17px;
+}
+#Totalpricecontent {
+  margin-top: -0px;
+  font-family: Noto Sans;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 80px;
+}
+.Deliverycharge {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 15px;
+  margin-top: 40px;
+}
+#Deliverychargecontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 80px;
+  margin-top: 1px;
+}
+.Totalamount {
+  /* border: 0.22px solid #dfdfdf; */
+  height: 30px;
+  margin-top: 15px;
+}
+#Totalamountcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 3px;
+}
+.Tax {
+  border: 0.22px solid #dfdfdf;
+  height: 15px;
+}
+#Taxcontent {
+  margin-top: 2px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  margin-left: 40px;
+}
+
+/* Product Price Calculation */
+
+/* Order summary and cupan start */
+.Ordersummary {
+  width: 88%;
+  margin-left: 8%;
+  height: 30.5%;
+  /* border: 0.005px solid firebrick; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+.Cupan {
+  width: 30%;
+  /* border: 0.005px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Addcupan {
+  /* border: 0.005px solid #4117d6; */
+  height: 15px;
+  width: 50%;
+}
+#Addcupancontent {
+  margin-top: 0%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: -20px;
+}
+.Cupaninput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.Editorder {
+  height: 13%;
+  margin-top: 43%;
+  width: 35%;
+
+  /* border: 0.006px solid whitesmoke; */
+
+  margin-left: 50%;
+}
+#Btn2 {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  color: #4aa2a8;
+}
+
+.Summary {
+  width: 40%;
+  /* border: 0.005px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+}
+.Order {
+  /* border: 0.005px solid firebrick;  */
+  height: 35px;
+  width: 50%;
+}
+#Ordercontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+  margin-top: 4px;
+}
+.Ordervalue {
+  /* border: 0.005px solid firebrick; */
+  height: 20px;
+  width: 100%;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.OrdervalueA {
+  /* border: 0.005px solid firebrick; */
+  width: 30%;
+  margin-left: 2%;
+}
+#OrdervalueAcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  margin-top: 1px;
+}
+
+.OrdervalueB {
+  /* border: 0.005px solid firebrick; */
+  width: 30%;
+}
+#OrdervalueBcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  margin-top: 1px;
+}
+
+.Shipingvalue {
+  /* border: 0.005px solid firebrick; */
+  height: 20px;
+  width: 100%;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ShipingvalueA {
+  /* border: 0.005px solid firebrick; */
+  width: 40%;
+  margin-left: 20px;
+}
+#ShipingvalueAcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #333333;
+  margin-top: 1px;
+}
+.ShipingvalueB {
+  /* border: 0.005px solid firebrick; */
+  width: 20%;
+  margin-right: 20px;
+}
+#ShipingvalueBcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  margin-top: 1px;
+}
+
+/* Order summary and cupan end */
+
+.Orderborder {
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 8%;
+  border: 1px solid #111111;
+}
+
+.Totalamount {
+  /* border: 0.005px solid firebrick; */
+  height: 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.TotalamountA {
+  width: 40%;
+  margin-left: 20px;
+  /* border: 0.005px solid firebrick; */
+}
+#TotalamountAcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 1%;
+}
+.TotalamountB {
+  width: 40%;
+
+  /* border: 0.005px solid firebrick; */
+}
+#TotalamountBcontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 1%;
+  margin-left: 18.6%;
+}
+.Cardimg {
+  /* border: 0.005px solid firebrick; */
+  width: 50%;
+  margin-left: 30%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Img1 {
+  padding: 1px;
+  padding: 1px;
+  margin-left: 3px;
+  margin-top: 2px;
+  /* border: solid 0.0001 whitesmoke; */
+  background-color: whitesmoke;
+}
+.Img2 {
+  padding: 1px;
+  margin-left: 3px;
+  margin-top: 2px;
+  /* border: solid 0.0001 whitesmoke; */
+  background-color: whitesmoke;
+}
+
+.Img3 {
+  padding: 1px;
+  margin-left: 3px;
+  margin-top: 2px;
+  /* border: solid 0.0001 whitesmoke; */
+  background-color: whitesmoke;
+}
+
+.Img4 {
+  padding: 1px;
+  margin-left: 3px;
+  margin-top: 2px;
+  /* border: solid 0.0001 whitesmoke; */
+  background-color: whitesmoke;
+}
+.Paymentcondition {
+  /* border: 0.0005px solid sienna; */
+  height: 10px;
+  width: 60%;
+  margin-left: 30%;
+}
+#Paymentconditioncontent {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  margin-top: 0%;
+}
+.Placeorder {
+  height: 15%;
+  margin-top: 3%;
+  width: 25%;
+  /* border: 1px solid blue; */
+
+  margin-left: 60%;
+}
+#Btn {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  color: whitesmoke;
+}

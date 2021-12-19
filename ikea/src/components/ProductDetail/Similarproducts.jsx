@@ -34,8 +34,8 @@ const Similarproducts = () =>{
                          <div key={e._id} className={styles.data}>
                             {e.status ? <>
                                 <img className={styles.heart} src={Heart} alt="love" />
-                                <img onMouseEnter={() => handlehover(e._id)} src={e.status ? e.image3 : e.image} onMouseLeave={() => handlehover(e._id)} alt="image" width="250px" height="250px" />
-                            </> : <> <img onMouseEnter={() => handlehover(e._id)} src={e.status ? e.image3 : e.image} onMouseLeave={() => handlehover(e._id)} alt="image" width="250px" height="250px" /></>
+                                <img onMouseEnter={() => handlehover(e._id)} src={e.status ? e.image2 : e.image} onMouseLeave={() => handlehover(e._id)} alt="image" width="250px" height="250px" />
+                            </> : <> <img onMouseEnter={() => handlehover(e._id)} src={e.status ? e.image2 : e.image} onMouseLeave={() => handlehover(e._id)} alt="image" width="250px" height="250px" /></>
                             }
                             <p className={styles.nam}>{e.name}</p>
                             <p>Led Work lamp</p>
@@ -43,6 +43,7 @@ const Similarproducts = () =>{
                             <img src={Star} alt="star" />
                             <img src={Star} alt="star" />
                             <img src={Star} alt="star" /> 
+                            <div style={{marginTop:"40px"}}></div>
                              </div>
                     ))} 
                  </div>  

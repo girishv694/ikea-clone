@@ -220,7 +220,7 @@ cursor: pointer;
     width: 70px;
     height: 40px;
     margin-left: 870px;
-    margin-top: -190px;
+    margin-top: -200px;
     position: absolute;
     text-align: left;
 }
@@ -447,10 +447,10 @@ color: #000000;
 }
 .btn{
 position: absolute;
-width: 376px;
+width: 476px;
 height: 98px;
 background: #FFFFFF;
-left: 250px;
+left: 190px;
 top: 900px;
 border-radius: 8px;
 border: 1px solid #DFDFDF;
@@ -476,7 +476,7 @@ cursor: pointer;
 }
 .collect{
 position: absolute;
-width: 376px;
+width: 450px;
 height: 98px;
 left: calc(50% - 376px/2 + 192px);
 top: calc(50% - 98px/2 + 21px);
@@ -485,7 +485,7 @@ border: 1px solid #DFDFDF;
 box-sizing: border-box;
 border-radius: 8px;
 margin-top: 487px;
-margin-left: 150px;
+margin-left: 120px;
 cursor: pointer;
 }
 

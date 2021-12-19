@@ -6,6 +6,14 @@ import {Home} from './components/HomePage/Main/Home'
 import {SearchResults} from "./components/SearchPage/SearchResults"
 import { ProductDetail } from './components/ProductDetail/ProductDetails'
 import { ShoppingCart } from './components/Cart/ShoppingCart'
+import ShopingCart from './components/page2/ShopingCart'
+import Payment from './components/Page1/Payment'
+import PaymentBox from './components/Page1/PaymentBox'
+import PaymentType from './components/Page1/PaymentType'
+import UpiBox from './components/Page1/UPiBox'
+import UpiType from './components/Page1/UpiType'
+import PaymentComponent from './components/Page1/PaymentmainComponent'
+import { Deliverypage } from './components/Deliveryinformation/DeliMain/Deliverypage'
 function App() {
   return (
     <div>
@@ -13,9 +21,17 @@ function App() {
         <Route exact path="/"> <Home /> </Route>
          <Route exact path="/search/:id"><SearchResults /></Route>
          <Route exact path="/product/:id"><ProductDetail /></Route>
-         <Route exact path="/cart"><ShoppingCart /></Route> 
+         <Route exact path="/products"><SearchResults /></Route>
+         <Route exact path="/cart"><ShoppingCart /></Route>
+         <Route exact path="/order"><ShopingCart /></Route>  
+          <Route exact path="/info"><Deliverypage /></Route>
          
       </Switch>
+      {/* <Two /> */}
+      {/* <ShopingCart /> */}
+      {/* <PaymentComponent /> */}
+      {/* <UpiType /> */}
+      {/* < Deliverypage /> */}
     </div>
   )
 }

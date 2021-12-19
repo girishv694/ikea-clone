@@ -1,7 +1,23 @@
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './deliveryinformation.css';
 
 
 export const Deliveryinformation =() => {
+
+    const [data, setData] = useState([])
+   
+
+    useEffect(()=>{
+        fetchData()
+    },[])
+
+    const fetchData = async () => {
+        const data1 = await axios.get("http://localhost:3001/cart/")
+        console.log(data1.data.data);
+        setData(data1.data.data)
+    }
 
     return(
         <>
@@ -81,20 +97,21 @@ export const Deliveryinformation =() => {
                     </div>
                     <div className="allinpumarg24delsu">The fields marked with a * are mandatory fields.</div>
                     <div className="allinpumarg24delsu" style={{display:"flex"}}>
-                        <button id="retretretsu">Return</button>
+                       <button id="retretretsu">Return</button>
                         <button id="proceederdelsu">Proceed to pay</button>
                     </div>
                     <div style={{height:"200px"}}></div>
                 </div>
                 {/* 2nd grid */}
+                {data.map((e)=>(
                 <div id="del2ndsu">
                     <div id="fexerdelsu">
                         <div>Order summary</div>
                         <div className="allinpumarg24delsu" id="orderdetdelsu">
-                            <div><img src="images/heartrated1.png" alt="" /></div>
+                            <div><img src={e.image} alt="" width="100px"/></div>
                             {/* 2nd grid */}
                             <div>
-                                <div><p><b>Harte</b></p></div>
+                                <div><p><b>{e.name}</b></p></div>
                                 <div><p>LED Work Lamp</p></div>
                                 <div>white,silver color</div>
                                 <div>Article no:703.372.32</div>
@@ -104,7 +121,7 @@ export const Deliveryinformation =() => {
                             {/* 3rd grid */}
                             <div style={{textAlign:"center"}}>
                                 <div>Edit</div>
-                                <div style={{marginTop:"170px"}}><b>Rs. 1490.00</b></div>
+                                <div style={{marginTop:"170px"}}><b>Rs. {e.price}.00</b></div>
                             </div>
                             
                              
@@ -114,18 +131,20 @@ export const Deliveryinformation =() => {
                                 <div><b>Order value:</b></div>
                                 <div>Delivery fee/Picking fee</div>
                             </div>
-                            <div id="totallerdelsusuus"><b>Rs. 1290.00</b>
+                            <div id="totallerdelsusuus"><b>Rs. {e.price}.00</b>
                             <div>Rs. 139.00</div>
                             </div>
                         </div>
                         <hr/>
                         <div id="lastdelprisu1">
                             <div><b>Total amount:</b></div>
-                            <div id="totalleftydelisu"><b>Rs. 1429.00</b></div>
+                            <div id="totalleftydelisu"><b>Rs. {e.price+139}.00</b></div>
                         </div>
                     </div>
                 </div>
+                ))}
             </div>
+            <img style={{marginLeft:"30px"}} src={require("./Card.png")} alt="blue" />
         </>
     )
 }

@@ -101,3 +101,39 @@ padding: 25px;
     color: black;
     text-decoration: none;
 }
+
+.use{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 1220px;
+    margin-top: 60px;
+}
+
+.use::-webkit-scrollbar {
+    background: #fff;
+    margin-top:10px;
+    width: 15px;
+    height:4px;
+    padding: 25px;
+}
+.use::-webkit-scrollbar:focus {
+background: #fff;
+margin-top:10px;
+width: 15px;
+height:150px;
+}
+
+.use::-webkit-scrollbar-thumb {
+border-radius: 2px;
+background-color: #868a8a;
+outline: 2px solid rgb(100, 102, 104);
+padding: 25px;
+}
+.use::-webkit-scrollbar-thumb:hover {
+border-radius: 2px;
+background-color: #121414;
+outline: 2px solid rgb(100, 102, 104);
+padding: 25px;
+
+}

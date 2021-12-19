@@ -1,6 +1,7 @@
 import Empty from "./images/Empty.png"
 import styles from "./cart.module.css"
 import Card from "./images/Card.png"
+import { NavLink } from "react-router-dom";
 
 const CartDetails = () => {
     return (
@@ -14,7 +15,7 @@ const CartDetails = () => {
             <p className={styles.ca}>Create account</p>    
         </div>
         <div className={styles.buttons}>
-        <button className={styles.bop}>Browser our product</button>
+      <NavLink to="/products"><button className={styles.bop}>Browser our product</button></NavLink>
         <button className={styles.login}>Login</button>
         </div>
         {/* <img className={styles.cardimg} src={Card} alt="blue" /> */}

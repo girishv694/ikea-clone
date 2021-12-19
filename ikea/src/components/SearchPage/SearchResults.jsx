@@ -10,10 +10,11 @@ import Rightsmall from "./images/Rightsmall.png"
 import styles from "./search.module.css"
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { Similarproducts } from "../ProductDetail/Similarproducts"
 import {Navbar} from "../HomePage/HomeCompo/Navbar/Navbar"
 import {Footer} from "../HomePage/HomeCompo/Footer/Footer"
 import { NavLink } from "react-router-dom";
+
+import { ProductData } from "./Data"
 
 
 const Div = styled.div`
@@ -697,7 +698,7 @@ position: absolute;
 width: 1100px;
 height: 520px;
 left: 84px;
-top: 1904px;
+top: 1870px;
 `
 const Div7 = styled.div`
 position: absolute;
@@ -802,7 +803,9 @@ const SearchResults = () => {
     
     return (
         <>
+        <div style={{maxWidth:"maxcontent"}}>
         <Navbar />
+        </div>
             <Div>
                 <Head>Showing results for <span><h3>"table lamps for study"</h3></span></Head>
             </Div>
@@ -865,7 +868,7 @@ const SearchResults = () => {
             </Div2>
             <Div5>
                 <Text9>Similar products</Text9>
-                <Similarproducts />
+                <ProductData />
             </Div5>
             <div className={styles.desks}>
                 <Imgdiv>

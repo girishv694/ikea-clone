@@ -17,8 +17,6 @@ const Hover = () => {
     }
 
 
-
-
     return (
             <>
             {data.map((e) => (
@@ -30,6 +28,7 @@ const Hover = () => {
                     <img src={Star} alt="star" />
                     <img src={Star} alt="star" />
                     <img src={Star} alt="star" />
+                    <div style={{marginTop:"40px"}}></div>
                 </div>
             ))}
         </>

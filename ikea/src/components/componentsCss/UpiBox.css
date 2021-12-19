@@ -1,0 +1,28 @@
+.UpiBoxa {
+  display: flex;
+  flex-direction: column;
+}
+
+.UpiBoxb {
+  display: flex;
+  flex-direction: row;
+   /* border: solid red;  */
+  justify-content: space-between;
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 3%;
+  height: 60px;
+}
+.UpiBoxc {
+  display: flex;
+  flex-direction: row;
+   /* border: solid red;  */
+  justify-content: space-between;
+  width: 39.5%;
+  margin-left: 7%;
+  margin-top: 1%;
+  height: 60px;
+}
+.Buttondiv{
+  margin-top: 30px;
+}

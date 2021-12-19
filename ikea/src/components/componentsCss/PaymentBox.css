@@ -1,0 +1,9 @@
+.PaymentBoxb {
+  display: flex;
+  flex-direction: row;
+   /* border: solid red;  */
+  justify-content: space-around;
+  width: 90%;
+  margin-left: 5%;
+  height: 60px;
+}

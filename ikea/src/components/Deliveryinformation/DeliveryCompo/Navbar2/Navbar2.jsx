@@ -2,7 +2,7 @@ import './navbar2.css';
 import ikealogo from './ikealogo.svg';
 import {useState} from 'react';
 export const Navbar2 =()=>{
-    const [login,setLogin] = useState(false);
+    const [login,setLogin] = useState(true);
     return(
         <>
             <div id="navbar2su">

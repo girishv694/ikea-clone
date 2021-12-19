@@ -1,0 +1,18 @@
+.a {
+  width: 100px;
+
+  border: 1px solid #24247c;
+  height: 42px;
+  background-color: #24247c;
+}
+.b {
+  width: 97px;
+
+  border: 1px solid #e7e71f;
+  border-radius: 50%;
+  height: 40px;
+  background-color: hsl(60, 94%, 50%);
+}
+img {
+  margin-top: 8px;
+}

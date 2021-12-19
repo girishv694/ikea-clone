@@ -13,10 +13,14 @@ import { CartDetails } from "./CartDetails"
 import axios from "axios"
 import {Footer} from "../HomePage/HomeCompo/Footer/Footer"
 import {Navbar} from "../HomePage/HomeCompo/Navbar/Navbar"
+import { NavLink, useHistory } from "react-router-dom"
+import { useParams } from "react-router-dom"
 
 
 
 const ShoppingCart = () => {
+    let {id} = useParams()
+    const history = useHistory()
     const [state, setState] = useState(false)
     const [delivery, setDelivery] = useState(false)
     const [wrong, setWrong] = useState(false)
@@ -31,7 +35,6 @@ const ShoppingCart = () => {
 
     const cartData = async() => {
         const cart = await axios.get("http://localhost:3001/cart/")
-        console.log(cart.data);
         setData(cart.data.data)
     }
 
@@ -58,7 +61,7 @@ const ShoppingCart = () => {
     const handleProceed = () => {
         if (pin.length === 6) {
             setWrong(false)
-            return alert("proceed")
+            history.push('/order')
         } else {
             setWrong(true)
         }
@@ -66,15 +69,7 @@ const ShoppingCart = () => {
 
     const handleDelete = async(bag) =>{
         const cart = await axios.delete(`http://localhost:3001/cart/delete/${bag}`)
-        
     }
-
-  /*   const handleselect = (e) => {
-        console.log(e.target.value);
-        setProceed(e.target.value)
-    } */
-
-
 
     return (
         <>
@@ -86,6 +81,7 @@ const ShoppingCart = () => {
             {data.length>0 ? 
                 <>
                 {data.map((e)=>(
+                    
                     <div key={e._id}>
                     <div  className={styles.Cont}>
                         <img className={styles.Image} src={e.image} alt="lamp" width="300px"/>
@@ -105,23 +101,18 @@ const ShoppingCart = () => {
                                 <button className={styles.delete} onClick={handleRemove}>
                                     <img src={Delete} alt="delete" />
                                 </button>
-                                <select className={styles.opt} /* onChange={(e)=>handleselect(e)} */>
-                                   {/*  {options.map((option,index) => ( */}
-                                   
+                                <select className={styles.opt} >
                                         <option value={proceed}>{proceed}</option>
-                                        <option onChange={()=>setProceed(proceed+1)} value={proceed}>{proceed}</option>{/* 
-                                        <option  value={setProceed(proceed+1)}>{proceed}</option> */}{/* 
-                                        <option  value={setProceed(proceed+1)}>{proceed}</option>
-                                        <option  value={setProceed(proceed+1)}>{proceed}</option>
-                                        <option  value={setProceed(proceed+1)}>{proceed}</option> */}
-                                    {/* ))} */}
+                                        <option value={proceed*2}>{proceed*2}</option>
+                                        
+                
                                 </select>
                             </>
                         }
                     </div>
                     
                     <p className={styles.line}>...........................................................................................................................................................................................................................................................................</p>
-                    <h2 className={styles.total}>Subtotal <span className={styles.final}>Rs. {e.price}.00</span> </h2>
+                    <h2 className={styles.total}>Subtotal <span className={styles.final}>Rs. {e.price*proceed}.00</span> </h2>
                     <p className={styles.line1}>...........................................................................................................................................................................................................................................................................</p>
                     </div>
                     ))}
@@ -148,9 +139,11 @@ const ShoppingCart = () => {
                             <p className={styles.pin}>Enter a PIN code to see product availability and delivery options</p>
                             <input type="number" className={styles.inputcode} onChange={handlePin} placeholder="Label" value={pin} />
                             {wrong ? <div className={styles.wrongpin}>Please enter correct Pin code</div> : <h4></h4>}
-                            <button className={styles.proceed} onClick={handleProceed}>
+                          <button className={styles.proceed} onClick={handleProceed}>
                                 Proceed
                             </button>
+                            
+                
                             <img className={styles.card1} src={Card} alt="blue" />
                         </> : <>
                             <button className={styles.btn} onClick={handleDelivery}>
