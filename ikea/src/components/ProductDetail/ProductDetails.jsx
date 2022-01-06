@@ -33,7 +33,7 @@ const Line = styled.hr`
 left: 0%;
 right: 0%;/* 
 margin-left: 2%; */
-margin-top: 343%;
+margin-top: 350%;
 width: 90%;
 border: 1px solid black;
 `
@@ -82,7 +82,7 @@ const ProductDetail = () => {
                 <h4 className={styles.lamp}>{data.name} LED work lamp</h4>
             </div>
             <div className={styles.images}>
-                <div className={styles.append}>
+                <div className={styles.append}> 
                 <SRLWrapper>
                     <img src={data.image} alt="lamp" width="400px" height="400px"/>
                     <img className={styles.lamp1} src={data.image1} alt="lamp" width="400px" height="400px" />
@@ -201,7 +201,7 @@ const ProductDetail = () => {
             </div>
             <Line1></Line1>
             {sidebar ? <Sidebar setSidebar={setSidebar} detail={detail}/> :
-                <div className={styles.side}>
+                <div className={styles.side}> 
                     <div className={styles.sidedetails}>
                         <h2>{data.name}</h2>
                         <p className={styles.sideprice}>Rs. <span className={styles.bigprice}>{data.price}</span> </p>
@@ -234,7 +234,10 @@ const ProductDetail = () => {
                     </div>
                 </div>
             }
-            <Footer />
+           {/*  <div style={{marginTop: "30px !important"}}>
+               <Footer /> 
+            </div> */}
+            
         </>
     )
 }

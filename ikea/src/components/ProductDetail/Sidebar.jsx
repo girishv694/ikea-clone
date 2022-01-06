@@ -25,7 +25,7 @@ const Sidebar = ({setSidebar,detail}) => {
 
 
     return (
-        <div className={styles.sidebar}>
+        <div className={styles.sidebar}> 
             <div className={styles.box}>
                 <button onClick={hanldecancel} className={styles.cancel}>
                     <img src={Cancel} alt="cancel" />

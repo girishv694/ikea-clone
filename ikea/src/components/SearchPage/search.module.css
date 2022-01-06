@@ -23,9 +23,10 @@
 
 .desks{
     position: absolute;
-width: 1200px;
+width: 1300px;
 height: 522px;
-left: 84px;
+left: 100px;
+margin-left: 30px;
 overflow-y: hidden;
 overflow-x: auto;
 top: 2500px;
@@ -109,8 +110,9 @@ padding: 25px;
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;
-    width: 1220px;
+    width: 1300px;
     margin-top: 60px;
+    margin-left: 30px;
 }
 
 .use::-webkit-scrollbar {
@@ -139,4 +141,8 @@ background-color: #121414;
 outline: 2px solid rgb(100, 102, 104);
 padding: 25px;
 
+}
+
+.footer{
+    margin-top: 1680px;
 }

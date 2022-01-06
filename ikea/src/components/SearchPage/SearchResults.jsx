@@ -62,7 +62,7 @@ top: 400px;
 `
 const Datadiv = styled.div`
     display: flex;
-    margin-left:60px;
+    margin-left:170px;
 `
 
 const Data = styled.div`
@@ -94,7 +94,7 @@ padding: 0px;
 position: absolute;
 width: 1151px;
 height: 40px;
-left: 100px;
+left: 150px;
 top: 380px;
 `
 
@@ -496,12 +496,12 @@ right: 0%;
 margin-left: 2%;
 /* top: 0%; */
 margin-top: 30%;
-width: 109%;
+width: 120%;
 border: 1px solid #DFDFDF;
 `
 const Line2 = styled.hr`
 /* position: absolute; */
-left: 5%;
+left: 2%;
 right: 0%;
 margin-left: 2%;
 top: 0%;
@@ -511,12 +511,12 @@ border: 1px solid #DFDFDF;
 `
 const Line3 = styled.hr`
 /* position: absolute; */
-left: 3%;
+
 right: 0%;
 top: 0%;
 margin-top: 5%;
-margin-left: -5%;
-width: 112%;
+margin-left: -15%;
+width: 125%;
 border: 1px solid #DFDFDF;
 `
 const Para = styled.p`
@@ -535,8 +535,8 @@ const Div2 = styled.div`
 position: absolute;
 width: 1150px;
 height: 224px;
-left: 84px;
-top: 1600px;
+left: 200px;
+top: 1650px;
 `
 
 const Div3 = styled.div`
@@ -794,7 +794,8 @@ const SearchResults = () => {
 
     const fetchData = async () => {
 
-        const data1 = await axios.get('http://localhost:3001/get/products/lamp')
+        const data1 = await axios.get('https://ikeaa-clone.herokuapp.com/get/products/lamp')
+        
 
         setData(data1.data.data)
     }
@@ -958,9 +959,12 @@ const SearchResults = () => {
                         <Eight>Clock(30)</Eight>
                         <Nine>Table lamp Shade(22)</Nine>
                     </Others>
-                    <Footer />
                 </Div7>
             </div>
+            <div className={styles.footer}>
+               <Footer /> 
+            </div>
+            
         </>
 
     )

@@ -16,7 +16,7 @@
 .UpiBoxc {
   display: flex;
   flex-direction: row;
-   /* border: solid red;  */
+   border: solid red; 
   justify-content: space-between;
   width: 39.5%;
   margin-left: 7%;

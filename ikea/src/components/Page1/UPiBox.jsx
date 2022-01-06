@@ -33,17 +33,17 @@ function UpiBox  () {
                   
             </div>
 
-            <div className="UpiBoxc">
-             
-             <div className="UpiBoxd1">
+          {/*   <div className="UpiBoxc">
+              
+             <div >
                   <UpiType name = {adress5} />
               </div>
-              <div className="UpiBoxd1">
+              <div >
                   <UpiType name = {adress6} />
               </div>
                  
 
-            </div>
+            </div> */}
 
         </div>
     )

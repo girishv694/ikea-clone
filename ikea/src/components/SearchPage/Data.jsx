@@ -24,7 +24,8 @@ const ProductData = () => {
 
     const fetchData = async () => {
 
-        const data1 = await axios.get('http://localhost:3001/get/products/lamp')
+        const data1 = await axios.get('https://ikeaa-clone.herokuapp.com/get/products/lamp')
+
 
         setData(data1.data.data)
     }
@@ -49,7 +50,7 @@ const ProductData = () => {
                      }
                      </>
                 ))} */}
-                <div className={styles.use}>
+                <div className={styles.use}> 
                      {data.map((e) => ( 
                          <div key={e._id} className={styles.data}>
                          <NavLink to = {`/product/${e._id}`} className={styles.links}>

@@ -21,15 +21,15 @@ function Payment () {
                    <UpiBox></UpiBox>
              </div>
              <div className='Buttondiv' style={{marginLeft:"240px", width:"600px",}}>
-                <button style={{border: "1px solid #DBE7F2"}}>Verify</button>
-                <button style={{border: "1px solid #DBE7F2", marginLeft:"10px"}} onClick={()=>{
+                <button style={{border: "1px solid #DBE7F2",  marginLeft:"60px"}}>Verify</button>
+                <button style={{border: "1px solid #DBE7F2", marginLeft:"30px"}} onClick={()=>{
                     alert("Payment Successfull")
                     history.push("/")
                 }}>PayNow</button>
              </div>
-             <div>
-                 <a style={{color:"blue", textDecoration:"underline",marginLeft:"260px"}}>cancel</a>
-             </div>
+            {/*  <div>
+                 <a style={{color:"blue", textDecoration:"underline",marginLeft:"330px", padding:"40px"}}>cancel</a>
+             </div> */}
 
              {/* <div className="Paymentb">
                 
@@ -57,7 +57,7 @@ function Payment () {
          </div>
 
          <div className="Payment2">
-             <div className="">
+             <div>
                 
 
               <img src={require('./images/visa.png')}/>
