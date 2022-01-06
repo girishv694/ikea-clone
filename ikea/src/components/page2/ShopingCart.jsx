@@ -76,7 +76,7 @@ function ShopingCart(){
                {/* your shoping cart para start */}
                  
                  <div className='Yourshoping'>
-                      <p  id='Yourshopinpara'>Your Shopping cart </p>
+                      <p  id='Yourshopinpara'>Your Shopping cart</p>
                  </div>
 
                  {/* your shoping cart para End */}
@@ -116,7 +116,7 @@ function ShopingCart(){
                                   </div>
                                   
                           <div>
-                                      <p id='White'>white silver colour</p>
+                                      
                                   </div>
                                   <div>
                                       <p id='Article'>
@@ -127,7 +127,7 @@ function ShopingCart(){
                          </div>
                            <div className ='Togglebutton'>
                                <button>1</button>
-                               <button>DELETE</button>
+                               <button className="delete">DELETE</button>
                            </div>
                            
                      </div>
@@ -143,7 +143,7 @@ function ShopingCart(){
                                 <div className='Totalprice'><p id='Totalpricecontent'> Rs. {e.price}.00</p></div>
                                 <div className='Deliverycharge'><p id='Deliverychargecontent'>Rs. 199.00</p></div>
                                 <div className='Totalamount'>  <p id='Totalamountcontent'> Rs. {e.price+199}.00</p></div>
-                                <div className='Tax'><p id='Taxcontent'>All price are inclusive of tax</p></div>
+                                
                             </div>
                           
                      </div>
@@ -157,20 +157,17 @@ function ShopingCart(){
 
                     <div className='Ordersummary'>
                         <div className='Cupan'>
-                            <div className='Addcupan'><p id='Addcupancontent'>Add your pramo/cupan code here</p>
+                            <div className='Addcupan'><p id='Addcupancontent'>Add your promo code here</p>
                                   
 
                             </div>
 
                             <div className='Cupaninput'>
-                                <div><input type='text' value='APPLY PREMO/CUPAN'></input></div>
+                                <div><input type='text' placeholder='Enter promo code '></input></div>
                                 <div> <button>APPLY NOW</button></div>
                             </div>
 
-                           <div className='Addcupan'><p id='Addcupancontent'>only pramo/cupan code per order</p>
-                                  
-
-                            </div>
+              
 
                              <div className='Editorder'>
                               <button id='Btn2'>Edit Order</button>
@@ -240,7 +237,7 @@ function ShopingCart(){
                      </>
                      ))}
         </div>
-        <img style={{marginLeft:"20px"}} src={Card} alt="blue" />
+        <img style={{marginLeft:"120px"}} src={Card} alt="blue" />
         <Footer />
         </>
     )

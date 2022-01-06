@@ -3,6 +3,12 @@
   flex-direction: row;
 }
 
+
+
+#InvoiceBpara{
+  font-size: 25px;
+}
+
 .Review {
   display: flex;
   flex-direction: column;
@@ -51,18 +57,17 @@
 }
 .InvoiceB {
   /* border: 00.004px solid fuchsia; */
-  width: 33%;
+  width: 40%;
   justify-content: left;
+  font-size: 14px;
 }
 #InvoiceBpara {
   justify-content: left;
   /* border: 00.004px solid fuchsia; */
   width: 40%;
   margin-left: 10%;
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
 }
 .InvoiceC {
   /* border: 00.004px solid fuchsia; */
@@ -262,4 +267,8 @@ input {
 }
 #totalleftydelisu {
   margin-left: 215px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
 }
